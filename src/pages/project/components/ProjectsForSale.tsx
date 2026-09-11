@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { relatedProjects, salesDistricts } from "@/mocks/project";
 
 function projectUrl(slug: string) {
-  return `/#/proyectos/${slug}`;
+  return `/proyectos/${slug}`;
 }
 
 interface ProjectsForSaleProps {
